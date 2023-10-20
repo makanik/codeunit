@@ -1,0 +1,9 @@
+.animated-element {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity .5s ease, transform .5s ease;
+}
+.animated-element.reveal {
+    opacity: 1;
+    transform: translateY(0);
+}
